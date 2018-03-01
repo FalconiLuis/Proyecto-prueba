@@ -1,0 +1,41 @@
+GitHab
+
+Comando Básicos
+
+* git init : decir a git que vamos a crear un programa nuevo, o comenzar a utilizar git
+* git add <file>: pasar los proyectos, agregar al area de trabajo 
+* git estatus:  Ver estados del proyecto
+* git commit: del staing area al repositorio
+
+*  git checkout -- index.html -> volver a la version anterior
+* git diff -> ver las diferencias
+* git log -> ver fotos de los proyectos
+
+* git push: subir a un repositorio remoto
+* git pull: multiples desarroladores, traer los cambios 
+* git clone: copia del proyecto
+
+: wq --> para salir del editor de texto
+/* archivo gitignore */
+
+archivo donde se puede mencionar carpetas que se quiere ignorar
+
+
+* git commit -m "mensaje"  -> para evitar ingresar a vin y esribir el mensaje
+
+
+* git branch -> ver el proyecto, crear una nueva version 
+* git branch login -> login puede ser cualquier nombre de la version
+
+* git checkout login - > para moverme a la nueva version (rama) login
+
+* git add . -> Quiero agregar todos los archivos nuevos que me da en status
+
+/* si se vuleve a la rama master se elimina los arhivos creados anteriormente*/
+
+git remote add origen https://github.com/FalconiLuis/Proyecto-prueba.git   - > agregar al nuevo repositorio creado en githab
+* git push origen master
+
+
+* git clone "direccion web del repositorio" para traerlo a la pc
+
